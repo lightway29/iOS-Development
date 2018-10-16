@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "51acff36be5246087a6709f9da347b0c"
+build_time: [1538578417, 671690000]
+inputs:
+  "/Users/lightway/IOS/Todo/Todo/Todo/SecondViewController.swift": [9223372036, 854775807]
+  "/Users/lightway/IOS/Todo/Todo/Todo/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/lightway/IOS/Todo/Todo/Todo/FirstViewController.swift": [9223372036, 854775807]

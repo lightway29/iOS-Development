@@ -1,0 +1,314 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "8pod_test14ViewControllerC"
+provides-member:
+- ["8pod_test14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- !private "SVProgressHUD"
+- !private "StringLiteralType"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", "setDefaultMaskType"]
+- !private ["So15CALayerDelegateP", "show"]
+- !private ["s7CVarArgP", "SVProgressHUD"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setDefaultMaskType"]
+- !private ["s7CVarArgP", "show"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "SVProgressHUD"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setDefaultMaskType"]
+- !private ["s28CustomDebugStringConvertibleP", "show"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "SVProgressHUD"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setDefaultMaskType"]
+- !private ["s23CustomStringConvertibleP", "show"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "SVProgressHUD"]
+- ["SQ", ""]
+- !private ["SQ", "black"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "setDefaultMaskType"]
+- !private ["SQ", "show"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "SVProgressHUD"]
+- ["SH", ""]
+- !private ["SH", "black"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "setDefaultMaskType"]
+- !private ["SH", "show"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "SVProgressHUD"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setDefaultMaskType"]
+- !private ["So8NSCodingP", "show"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "SVProgressHUD"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "SVProgressHUD"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "setDefaultMaskType"]
+- !private ["So8NSObjectC", "show"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "SVProgressHUD"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "setDefaultMaskType"]
+- !private ["So8NSObjectP", "show"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "black"]
+- !private ["So13SVProgressHUDC", "setDefaultMaskType"]
+- !private ["So13SVProgressHUDC", "show"]
+- !private ["So21SVProgressHUDMaskTypeV", "black"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setDefaultMaskType"]
+- !private ["So29UIAccessibilityIdentificationP", "show"]
+- !private ["So12UIAppearanceP", "setDefaultMaskType"]
+- !private ["So12UIAppearanceP", "show"]
+- !private ["So21UIAppearanceContainerP", "SVProgressHUD"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setDefaultMaskType"]
+- !private ["So21UIAppearanceContainerP", "show"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "SVProgressHUD"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "setDefaultMaskType"]
+- !private ["So17UICoordinateSpaceP", "show"]
+- !private ["So13UIDynamicItemP", "setDefaultMaskType"]
+- !private ["So13UIDynamicItemP", "show"]
+- !private ["So18UIFocusEnvironmentP", "SVProgressHUD"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setDefaultMaskType"]
+- !private ["So18UIFocusEnvironmentP", "show"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "setDefaultMaskType"]
+- !private ["So11UIFocusItemP", "show"]
+- !private ["So20UIFocusItemContainerP", "setDefaultMaskType"]
+- !private ["So20UIFocusItemContainerP", "show"]
+- !private ["So30UIPasteConfigurationSupportingP", "SVProgressHUD"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setDefaultMaskType"]
+- !private ["So30UIPasteConfigurationSupportingP", "show"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "SVProgressHUD"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "setDefaultMaskType"]
+- !private ["So11UIResponderC", "show"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "SVProgressHUD"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setDefaultMaskType"]
+- !private ["So30UIResponderStandardEditActionsP", "show"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "SVProgressHUD"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "SVProgressHUD"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setDefaultMaskType"]
+- !private ["So18UITraitEnvironmentP", "show"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "SVProgressHUD"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "setDefaultMaskType"]
+- !private ["So23UIUserActivityRestoringP", "show"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "setDefaultMaskType"]
+- !private ["So6UIViewC", "show"]
+- !private ["So16UIViewControllerC", "SVProgressHUD"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["8pod_test14ViewControllerC", "SVProgressHUD"]
+- ["8pod_test14ViewControllerC", "init"]
+- ["8pod_test14ViewControllerC", "viewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setDefaultMaskType"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "show"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SVProgressHUD"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDefaultMaskType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "show"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sm"
+- !private "SY"
+- !private "So13SVProgressHUDC"
+- !private "So21SVProgressHUDMaskTypeV"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "8pod_test14ViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lightway/IOS/pod-test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/lightway/IOS/pod-test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/lightway/IOS/pod-test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/lightway/IOS/pod-test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/lightway/IOS/pod-test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/lightway/IOS/pod-test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "acd84f53f1f17eb6e3e3f13ecc43a915"

@@ -1,0 +1,368 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuViewController"
+provides-nominal:
+- "11FirebaseApp18MenuViewControllerC"
+provides-member:
+- ["11FirebaseApp18MenuViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "loginButton"
+- "preferredStatusBarStyle"
+- "signupButton"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- "Bool"
+- "MenuViewController"
+- "UIButton"
+- "UIStatusBarStyle"
+- "UIViewController"
+- !private "primaryColor"
+- !private "secondaryColor"
+depends-member:
+- !private ["So15CALayerDelegateP", "addVerticalGradientLayer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addVerticalGradientLayer"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "primaryColor"]
+- !private ["s7CVarArgP", "secondaryColor"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addVerticalGradientLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "primaryColor"]
+- !private ["s28CustomDebugStringConvertibleP", "secondaryColor"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s17CustomReflectableP", "addVerticalGradientLayer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addVerticalGradientLayer"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "primaryColor"]
+- !private ["s23CustomStringConvertibleP", "secondaryColor"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["Se", "addVerticalGradientLayer"]
+- !private ["SE", "addVerticalGradientLayer"]
+- ["SQ", ""]
+- !private ["SQ", "addVerticalGradientLayer"]
+- !private ["SQ", "didReceiveMemoryWarning"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lightContent"]
+- !private ["SQ", "primaryColor"]
+- !private ["SQ", "secondaryColor"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["s23ExpressibleByNilLiteralP", "addVerticalGradientLayer"]
+- ["SH", ""]
+- !private ["SH", "addVerticalGradientLayer"]
+- !private ["SH", "didReceiveMemoryWarning"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "lightContent"]
+- !private ["SH", "primaryColor"]
+- !private ["SH", "secondaryColor"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewWillAppear"]
+- ["11FirebaseApp18MenuViewControllerC", "Bool"]
+- ["11FirebaseApp18MenuViewControllerC", "UIButton"]
+- ["11FirebaseApp18MenuViewControllerC", "UIStatusBarStyle"]
+- ["11FirebaseApp18MenuViewControllerC", "didReceiveMemoryWarning"]
+- ["11FirebaseApp18MenuViewControllerC", "init"]
+- ["11FirebaseApp18MenuViewControllerC", "loginButton"]
+- ["11FirebaseApp18MenuViewControllerC", "preferredStatusBarStyle"]
+- !private ["11FirebaseApp18MenuViewControllerC", "primaryColor"]
+- !private ["11FirebaseApp18MenuViewControllerC", "secondaryColor"]
+- ["11FirebaseApp18MenuViewControllerC", "signupButton"]
+- !private ["11FirebaseApp18MenuViewControllerC", "view"]
+- ["11FirebaseApp18MenuViewControllerC", "viewDidLoad"]
+- ["11FirebaseApp18MenuViewControllerC", "viewWillAppear"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addVerticalGradientLayer"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "primaryColor"]
+- !private ["So8NSCodingP", "secondaryColor"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "primaryColor"]
+- !private ["So26NSExtensionRequestHandlingP", "secondaryColor"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIStatusBarStyle"]
+- !private ["So8NSObjectC", "addVerticalGradientLayer"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loginButton"]
+- ["So8NSObjectC", "preferredStatusBarStyle"]
+- !private ["So8NSObjectC", "primaryColor"]
+- !private ["So8NSObjectC", "secondaryColor"]
+- ["So8NSObjectC", "signupButton"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addVerticalGradientLayer"]
+- !private ["So8NSObjectP", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "primaryColor"]
+- !private ["So8NSObjectP", "secondaryColor"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "viewWillAppear"]
+- !private ["Sq", "addVerticalGradientLayer"]
+- !private ["SY", "lightContent"]
+- !private ["So29UIAccessibilityIdentificationP", "addVerticalGradientLayer"]
+- !private ["So12UIAppearanceP", "addVerticalGradientLayer"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addVerticalGradientLayer"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "primaryColor"]
+- !private ["So21UIAppearanceContainerP", "secondaryColor"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "primaryColor"]
+- !private ["So18UIContentContainerP", "secondaryColor"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So17UICoordinateSpaceP", "addVerticalGradientLayer"]
+- !private ["So13UIDynamicItemP", "addVerticalGradientLayer"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addVerticalGradientLayer"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "primaryColor"]
+- !private ["So18UIFocusEnvironmentP", "secondaryColor"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So11UIFocusItemP", "addVerticalGradientLayer"]
+- !private ["So20UIFocusItemContainerP", "addVerticalGradientLayer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addVerticalGradientLayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "primaryColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "secondaryColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIStatusBarStyle"]
+- !private ["So11UIResponderC", "addVerticalGradientLayer"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loginButton"]
+- ["So11UIResponderC", "preferredStatusBarStyle"]
+- !private ["So11UIResponderC", "primaryColor"]
+- !private ["So11UIResponderC", "secondaryColor"]
+- ["So11UIResponderC", "signupButton"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addVerticalGradientLayer"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "primaryColor"]
+- !private ["So30UIResponderStandardEditActionsP", "secondaryColor"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "primaryColor"]
+- !private ["So16UIStateRestoringP", "secondaryColor"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So16UIStatusBarStyleV", "lightContent"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addVerticalGradientLayer"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "primaryColor"]
+- !private ["So18UITraitEnvironmentP", "secondaryColor"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addVerticalGradientLayer"]
+- !private ["So23UIUserActivityRestoringP", "didReceiveMemoryWarning"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "primaryColor"]
+- !private ["So23UIUserActivityRestoringP", "secondaryColor"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- !private ["So6UIViewC", "addVerticalGradientLayer"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIStatusBarStyle"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loginButton"]
+- ["So16UIViewControllerC", "preferredStatusBarStyle"]
+- !private ["So16UIViewControllerC", "primaryColor"]
+- !private ["So16UIViewControllerC", "secondaryColor"]
+- ["So16UIViewControllerC", "signupButton"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addVerticalGradientLayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addVerticalGradientLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "primaryColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondaryColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["s21_ObjectiveCBridgeableP", "addVerticalGradientLayer"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "11FirebaseApp18MenuViewControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "SY"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So16UIStatusBarStyleV"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/lightway/IOS/Development/Email Auth/FirebaseApp-1-Email-Authentication-Start/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "74ec38347ff60f72a6aa155e5a60f1e7"

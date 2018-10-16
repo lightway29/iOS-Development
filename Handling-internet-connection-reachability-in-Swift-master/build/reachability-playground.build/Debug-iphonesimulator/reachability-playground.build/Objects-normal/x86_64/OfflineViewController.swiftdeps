@@ -1,0 +1,492 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OfflineViewController"
+provides-nominal:
+- "23reachability_playground21OfflineViewControllerC"
+provides-member:
+- ["23reachability_playground21OfflineViewControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "viewWillAppear"
+- "viewWillDisappear"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "DispatchQueue"
+- "NetworkManager"
+- "OfflineViewController"
+- !private "StringLiteralType"
+- "UIViewController"
+- "Void"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "NetworkManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "network"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "reachability"]
+- !private ["s7CVarArgP", "setNavigationBarHidden"]
+- ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "showMainController"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s7CVarArgP", "viewWillDisappear"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "NetworkManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "network"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "reachability"]
+- !private ["s28CustomDebugStringConvertibleP", "setNavigationBarHidden"]
+- ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "showMainController"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
+- !private ["s28CustomDebugStringConvertibleP", "whenReachable"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "whenReachable"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "NetworkManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "network"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "reachability"]
+- !private ["s23CustomStringConvertibleP", "setNavigationBarHidden"]
+- ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "showMainController"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["s23CustomStringConvertibleP", "viewWillDisappear"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "whenReachable"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "whenReachable"]
+- !private ["SQ", "DispatchQueue"]
+- ["SQ", "NetworkManager"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "network"]
+- !private ["SQ", "performSegue"]
+- !private ["SQ", "reachability"]
+- !private ["SQ", "setNavigationBarHidden"]
+- ["SQ", "sharedInstance"]
+- !private ["SQ", "showMainController"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["SQ", "viewWillDisappear"]
+- !private ["SQ", "whenReachable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "whenReachable"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "DispatchQueue"]
+- ["SH", "NetworkManager"]
+- ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "network"]
+- !private ["SH", "performSegue"]
+- !private ["SH", "reachability"]
+- !private ["SH", "setNavigationBarHidden"]
+- ["SH", "sharedInstance"]
+- !private ["SH", "showMainController"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewWillAppear"]
+- !private ["SH", "viewWillDisappear"]
+- !private ["SH", "whenReachable"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- ["So8NSCodingP", "NetworkManager"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "network"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "setNavigationBarHidden"]
+- !private ["So8NSCodingP", "showMainController"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- !private ["So8NSCodingP", "viewWillDisappear"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- ["So26NSExtensionRequestHandlingP", "NetworkManager"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "network"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "setNavigationBarHidden"]
+- !private ["So26NSExtensionRequestHandlingP", "showMainController"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillDisappear"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "NetworkManager"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "network"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "reachability"]
+- !private ["So8NSObjectC", "setNavigationBarHidden"]
+- ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectC", "showMainController"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", "NetworkManager"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "network"]
+- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "reachability"]
+- !private ["So8NSObjectP", "setNavigationBarHidden"]
+- ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "showMainController"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "viewWillAppear"]
+- !private ["So8NSObjectP", "viewWillDisappear"]
+- !private ["23reachability_playground14NetworkManagerC", "reachability"]
+- ["23reachability_playground14NetworkManagerC", "sharedInstance"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- ["23reachability_playground21OfflineViewControllerC", "Bool"]
+- !private ["23reachability_playground21OfflineViewControllerC", "DispatchQueue"]
+- ["23reachability_playground21OfflineViewControllerC", "NetworkManager"]
+- ["23reachability_playground21OfflineViewControllerC", "Void"]
+- ["23reachability_playground21OfflineViewControllerC", "init"]
+- !private ["23reachability_playground21OfflineViewControllerC", "navigationController"]
+- ["23reachability_playground21OfflineViewControllerC", "network"]
+- !private ["23reachability_playground21OfflineViewControllerC", "performSegue"]
+- !private ["23reachability_playground21OfflineViewControllerC", "showMainController"]
+- ["23reachability_playground21OfflineViewControllerC", "viewDidLoad"]
+- ["23reachability_playground21OfflineViewControllerC", "viewWillAppear"]
+- ["23reachability_playground21OfflineViewControllerC", "viewWillDisappear"]
+- !private ["Sq", "whenReachable"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["12ReachabilityAAC", "whenReachable"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- ["So21UIAppearanceContainerP", "NetworkManager"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "network"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "setNavigationBarHidden"]
+- !private ["So21UIAppearanceContainerP", "showMainController"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So21UIAppearanceContainerP", "viewWillDisappear"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- ["So18UIContentContainerP", "NetworkManager"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "network"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "setNavigationBarHidden"]
+- !private ["So18UIContentContainerP", "showMainController"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So18UIContentContainerP", "viewWillDisappear"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- ["So18UIFocusEnvironmentP", "NetworkManager"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "network"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "setNavigationBarHidden"]
+- !private ["So18UIFocusEnvironmentP", "showMainController"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So18UIFocusEnvironmentP", "viewWillDisappear"]
+- !private ["So22UINavigationControllerC", "setNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- ["So30UIPasteConfigurationSupportingP", "NetworkManager"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "network"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "setNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "showMainController"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillDisappear"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "NetworkManager"]
+- ["So11UIResponderC", "Void"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "network"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "setNavigationBarHidden"]
+- ["So11UIResponderC", "showMainController"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- ["So30UIResponderStandardEditActionsP", "NetworkManager"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "network"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "setNavigationBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "showMainController"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillDisappear"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- ["So16UIStateRestoringP", "NetworkManager"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "network"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "setNavigationBarHidden"]
+- !private ["So16UIStateRestoringP", "showMainController"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So16UIStateRestoringP", "viewWillDisappear"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- ["So18UITraitEnvironmentP", "NetworkManager"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "network"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "setNavigationBarHidden"]
+- !private ["So18UITraitEnvironmentP", "showMainController"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So18UITraitEnvironmentP", "viewWillDisappear"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- ["So23UIUserActivityRestoringP", "NetworkManager"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "network"]
+- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "setNavigationBarHidden"]
+- !private ["So23UIUserActivityRestoringP", "showMainController"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- !private ["So23UIUserActivityRestoringP", "viewWillDisappear"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "NetworkManager"]
+- ["So16UIViewControllerC", "Void"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "network"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- !private ["So16UIViewControllerC", "setNavigationBarHidden"]
+- ["So16UIViewControllerC", "showMainController"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NetworkManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "network"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNavigationBarHidden"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showMainController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillDisappear"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "whenReachable"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "23reachability_playground14NetworkManagerC"
+- !private "So9OS_objectC"
+- "23reachability_playground21OfflineViewControllerC"
+- !private "Sq"
+- !private "Sm"
+- !private "12ReachabilityAAC"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "05911626035353588f1554085cf30e89"

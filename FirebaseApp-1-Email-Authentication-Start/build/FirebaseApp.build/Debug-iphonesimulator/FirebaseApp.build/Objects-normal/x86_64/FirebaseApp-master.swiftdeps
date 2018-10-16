@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "8f3697f2b72c7a4d13c03b6ac3c15946"
+build_time: [1539605912, 766980000]
+inputs:
+  "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/FirebaseApp/HelperExtensions.swift": [1535471552, 0]
+  "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/FirebaseApp/LoginViewController.swift": [1535471552, 0]
+  "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/FirebaseApp/SignUpViewController.swift": !dirty [1539588810, 0]
+  "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/FirebaseApp/RoundedWhiteButton.swift": !dirty [1535471552, 0]
+  "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/FirebaseApp/ViewController.swift": [1535471552, 0]
+  "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/FirebaseApp/InitialViewController.swift": [1535471552, 0]
+  "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/FirebaseApp/AppDelegate.swift": !dirty [1539591402, 0]
+  "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-Start/FirebaseApp/MenuViewController.swift": !dirty [1535471552, 0]

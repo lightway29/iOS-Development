@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomeViewController"
+provides-nominal:
+- "11FirebaseApp18HomeViewControllerC"
+provides-member:
+- ["11FirebaseApp18HomeViewControllerC", ""]
+provides-dynamic-lookup:
+- "handleLogout"
+- "viewDidLoad"
+depends-top-level:
+- !private "Auth"
+- !private "BooleanLiteralType"
+- "HomeViewController"
+- "UIViewController"
+depends-member:
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "signOut"]
+- !private ["s7CVarArgP", "Auth"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "signOut"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["SQ", "Auth"]
+- ["SQ", ""]
+- !private ["SQ", "auth"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "signOut"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SH", "Auth"]
+- ["SH", ""]
+- !private ["SH", "auth"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "signOut"]
+- !private ["SH", "viewDidLoad"]
+- !private ["11FirebaseApp18HomeViewControllerC", "Auth"]
+- !private ["11FirebaseApp18HomeViewControllerC", "dismiss"]
+- ["11FirebaseApp18HomeViewControllerC", "handleLogout"]
+- ["11FirebaseApp18HomeViewControllerC", "init"]
+- ["11FirebaseApp18HomeViewControllerC", "viewDidLoad"]
+- !private ["So8NSCodingP", "Auth"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Auth"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "handleLogout"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "signOut"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Auth"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "signOut"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Auth"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Auth"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "handleLogout"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "Auth"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Auth"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Auth"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "Auth"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "handleLogout"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+depends-nominal:
+- !private "So7FIRAuthC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "11FirebaseApp18HomeViewControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/lightway/IOS/Development/FirebaseApp-1-Email-Authentication-End/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "690d3495c6762985ef503c7e4364d2da"

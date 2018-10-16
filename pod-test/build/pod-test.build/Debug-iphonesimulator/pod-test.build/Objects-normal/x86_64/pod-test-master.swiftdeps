@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "35ca8318e332f22f60fa1c7232e1aca3"
+build_time: [1538577843, 150524000]
+inputs:
+  "/Users/lightway/IOS/pod-test/pod-test/ViewController.swift": [1538577843, 0]
+  "/Users/lightway/IOS/pod-test/pod-test/AppDelegate.swift": [1538576888, 0]
