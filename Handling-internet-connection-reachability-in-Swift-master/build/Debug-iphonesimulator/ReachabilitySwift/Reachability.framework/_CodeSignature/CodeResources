@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		I0gTs1Tj0X4w+CY3EEaWc7qGwYk=
+		O5XVRJThVNm6WD7WJla34Jkze7A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,11 +68,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I0gTs1Tj0X4w+CY3EEaWc7qGwYk=
+			O5XVRJThVNm6WD7WJla34Jkze7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZMC/+1Ht+Zv3sgrxX1DD0/47EAnos9AT9xT4QTnBcfA=
+			Bqtwg7NvSRYfEXxetDCekyyuG4fG52VrEMogHOVr4cc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

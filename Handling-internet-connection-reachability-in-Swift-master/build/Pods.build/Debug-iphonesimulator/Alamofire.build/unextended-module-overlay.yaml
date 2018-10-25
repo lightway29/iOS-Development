@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules"
+    'name': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap",
+      'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap",
     }]
   }]
 }

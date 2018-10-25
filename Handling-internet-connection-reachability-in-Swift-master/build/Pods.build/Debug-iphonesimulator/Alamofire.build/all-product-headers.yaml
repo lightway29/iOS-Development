@@ -4,82 +4,82 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
           'name': "Alamofire-umbrella.h",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Pods_reachability_playground.framework/Headers",
+      'name': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Pods_reachability_playground.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-reachability-playground-umbrella.h",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/Pods/Target Support Files/Pods-reachability-playground/Pods-reachability-playground-umbrella.h"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/Pods/Target Support Files/Pods-reachability-playground/Pods-reachability-playground-umbrella.h"
         },
         {
           'type': 'file',
           'name': "Pods_reachability_playground-Swift.h",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Pods_reachability_playground.framework/Headers/Pods_reachability_playground-Swift.h"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Pods_reachability_playground.framework/Headers/Pods_reachability_playground-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Pods_reachability_playground.framework/Modules",
+      'name': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/Pods_reachability_playground.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Pods.build/Debug-iphonesimulator/Pods-reachability-playground.build/module.modulemap"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Pods.build/Debug-iphonesimulator/Pods-reachability-playground.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers",
+      'name': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Reachability-Swift.h",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
         },
         {
           'type': 'file',
           'name': "ReachabilitySwift-umbrella.h",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules",
+      'name': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lightway/Desktop/Handling-internet-connection-reachability-in-Swift-master/build/Pods.build/Debug-iphonesimulator/ReachabilitySwift.build/module.modulemap"
+          'external-contents': "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/build/Pods.build/Debug-iphonesimulator/ReachabilitySwift.build/module.modulemap"
         }
       ]
     }
