@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4857e95c82933a45f80b45154c00269c"
+build_time: [1541664486, 733725000]
+inputs:
+  "/Users/lightway/IOS/iOS-Development/Master-Detailed-APP/Working/Master-Detailed-App/Master-Detailed-App/Item.swift": [1541646396, 0]
+  "/Users/lightway/IOS/iOS-Development/Master-Detailed-APP/Working/Master-Detailed-App/Master-Detailed-App/AppDelegate.swift": [1541560478, 0]
+  "/Users/lightway/IOS/iOS-Development/Master-Detailed-APP/Working/Master-Detailed-App/Master-Detailed-App/MasterViewController.swift": !dirty [1541648236, 0]
+  "/Users/lightway/IOS/iOS-Development/Master-Detailed-APP/Working/Master-Detailed-App/Master-Detailed-App/DetailViewController.swift": [1541560478, 0]
+  "/Users/lightway/IOS/iOS-Development/Master-Detailed-APP/Working/Master-Detailed-App/Storage.swift": [1541646727, 0]
+  "/Users/lightway/IOS/iOS-Development/Master-Detailed-APP/Working/Master-Detailed-App/build/Master-Detailed-App.build/Debug-iphonesimulator/Master-Detailed-App.build/DerivedSources/CoreDataGenerated/Master_Detailed_App/Event+CoreDataClass.swift": [1541646182, 0]
+  "/Users/lightway/IOS/iOS-Development/Master-Detailed-APP/Working/Master-Detailed-App/build/Master-Detailed-App.build/Debug-iphonesimulator/Master-Detailed-App.build/DerivedSources/CoreDataGenerated/Master_Detailed_App/Event+CoreDataProperties.swift": [1541646182, 0]
+  "/Users/lightway/IOS/iOS-Development/Master-Detailed-APP/Working/Master-Detailed-App/build/Master-Detailed-App.build/Debug-iphonesimulator/Master-Detailed-App.build/DerivedSources/CoreDataGenerated/Master_Detailed_App/Master_Detailed_App+CoreDataModel.swift": [1541646182, 0]

@@ -1,5 +1,5 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
-options: "c1a486bb53dfd3e04c32cb8c04970b1d"
-build_time: [1540207393, 129727000]
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "0da737a2d453ab5e11f2009f2515e971"
+build_time: [1542006460, 227922000]
 inputs:
   "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/Pods/ReachabilitySwift/Reachability/Reachability.swift": [1509146828, 0]

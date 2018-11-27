@@ -1,6 +1,6 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
-options: "6c4a5f818d0d078258dd56b1e0b35c78"
-build_time: [1540207393, 129738000]
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "754ec1c1f6ec3c6e9e1408e95407b530"
+build_time: [1542006460, 212184000]
 inputs:
   "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/Pods/Alamofire/Source/AFError.swift": [1509146828, 0]
   "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/Pods/Alamofire/Source/Alamofire.swift": [1509146828, 0]

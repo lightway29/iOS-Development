@@ -1,6 +1,6 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
-options: "0ae2c04a8e46504a485da595eb8deb40"
-build_time: [1540207409, 861150000]
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "5e46c51596eb2e8ac3934f08ca2ca75c"
+build_time: [1542006474, 545660000]
 inputs:
   "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/reachability-playground/OfflineViewController.swift": [1509146828, 0]
   "/Users/lightway/IOS/iOS-Development/Handling-internet-connection-reachability-in-Swift-master/reachability-playground/LaunchViewController.swift": [1509146828, 0]

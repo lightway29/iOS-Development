@@ -1,6 +1,6 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
-options: "4c3ec0ae5dee197d5d2570af6736d400"
-build_time: [1540990052, 263868000]
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "dee2f0fdae48d02f91344f34e1f1cb44"
+build_time: [1541134192, 622533000]
 inputs:
   "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Custom-Cell/Project-Custom-Cell/ViewController.swift": [1540989875, 0]
   "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Custom-Cell/Project-Custom-Cell/AppDelegate.swift": [1540878262, 0]
