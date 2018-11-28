@@ -14,6 +14,7 @@
 		4C0D3C9921A57FB4002DDDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D3C9821A57FB4002DDDA2 /* Assets.xcassets */; };
 		4C0D3C9C21A57FB4002DDDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D3C9A21A57FB4002DDDA2 /* LaunchScreen.storyboard */; };
 		4CB9229021AE33340047062B /* SafeAndSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9228F21AE33340047062B /* SafeAndSoundViewController.swift */; };
+		4CB9229221AE3EAC0047062B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB9229121AE3EAC0047062B /* GoogleService-Info.plist */; };
 		4CBBB49821AD6E5F00A00497 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBBB49721AD6E5F00A00497 /* SignUpViewController.swift */; };
 		4CBBB49A21AD745300A00497 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBBB49921AD745300A00497 /* LogInViewController.swift */; };
 		74D2BCBF4096F3AD00E6A6C1 /* Pods_Project_Safe_And_Sound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A26C9A9AAFFB00ADE8D740 /* Pods_Project_Safe_And_Sound.framework */; };
@@ -31,6 +32,7 @@
 		4C0D3C9B21A57FB4002DDDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C0D3C9D21A57FB4002DDDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB9228F21AE33340047062B /* SafeAndSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAndSoundViewController.swift; sourceTree = "<group>"; };
+		4CB9229121AE3EAC0047062B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CBBB49721AD6E5F00A00497 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4CBBB49921AD745300A00497 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		CCD6EB63AD859570C3F64BDC /* Pods-Project-Safe-And-Sound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project-Safe-And-Sound.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project-Safe-And-Sound/Pods-Project-Safe-And-Sound.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 		4C0D3C8D21A57FB4002DDDA2 /* Project-Safe-And-Sound */ = {
 			isa = PBXGroup;
 			children = (
+				4CB9229121AE3EAC0047062B /* GoogleService-Info.plist */,
+				4C0D3C9D21A57FB4002DDDA2 /* Info.plist */,
 				4C0D3C9821A57FB4002DDDA2 /* Assets.xcassets */,
 				4C0D3C8E21A57FB4002DDDA2 /* AppDelegate.swift */,
 				4CB9228F21AE33340047062B /* SafeAndSoundViewController.swift */,
@@ -94,7 +98,6 @@
 				4C0D3C9021A57FB4002DDDA2 /* ViewController.swift */,
 				4C0D3C9221A57FB4002DDDA2 /* Main.storyboard */,
 				4C0D3C9A21A57FB4002DDDA2 /* LaunchScreen.storyboard */,
-				4C0D3C9D21A57FB4002DDDA2 /* Info.plist */,
 				4C0D3C9521A57FB4002DDDA2 /* Project_Safe_And_Sound.xcdatamodeld */,
 			);
 			path = "Project-Safe-And-Sound";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C0D3C9C21A57FB4002DDDA2 /* LaunchScreen.storyboard in Resources */,
+				4CB9229221AE3EAC0047062B /* GoogleService-Info.plist in Resources */,
 				4C0D3C9921A57FB4002DDDA2 /* Assets.xcassets in Resources */,
 				4C0D3C9421A57FB4002DDDA2 /* Main.storyboard in Resources */,
 			);
