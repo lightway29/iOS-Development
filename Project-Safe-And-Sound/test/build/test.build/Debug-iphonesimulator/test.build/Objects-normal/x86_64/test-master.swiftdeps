@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "3abb72daab710008cbbe0c0ca696b578"
+build_time: [1542968676, 384107000]
+inputs:
+  "/Users/lightway/IOS/iOS-Development/Project-Safe-And-Sound/test/test/ViewController.swift": [1542968672, 0]
+  "/Users/lightway/IOS/iOS-Development/Project-Safe-And-Sound/test/test/AppDelegate.swift": [1542968672, 0]

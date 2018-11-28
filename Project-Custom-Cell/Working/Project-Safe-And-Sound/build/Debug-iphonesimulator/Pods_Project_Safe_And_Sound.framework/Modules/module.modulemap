@@ -1,0 +1,6 @@
+framework module Pods_Project_Safe_And_Sound {
+  umbrella header "Pods-Project-Safe-And-Sound-umbrella.h"
+
+  export *
+  module * { export * }
+}
