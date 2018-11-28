@@ -213,6 +213,15 @@ SWIFT_CLASS("_TtC22Project_Safe_And_Sound19LogInViewController")
 @end
 
 
+SWIFT_CLASS("_TtC22Project_Safe_And_Sound26SafeAndSoundViewController")
+@interface SafeAndSoundViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified btnContacts;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC22Project_Safe_And_Sound20SignUpViewController")
 @interface SignUpViewController : UIViewController
 @property (nonatomic, strong) IBOutlet UITextField * _Null_unspecified txtEmail;

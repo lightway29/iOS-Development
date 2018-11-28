@@ -35,6 +35,8 @@ class LogInViewController: UIViewController {
             if error == nil && user != nil {
                 print("Logged In !!!!!!! ")
                 self.dismiss(animated: false, completion: nil)
+                self.performSegue(withIdentifier: "goto_safe_and_sound_from_login", sender: nil)
+                
             } else {
                 print("Error logging in: \(error!.localizedDescription)")
             }
