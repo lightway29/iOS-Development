@@ -10,21 +10,24 @@ provides-dynamic-lookup:
 - "handleSignIn"
 - "txtEmail"
 - "txtPassword"
+- "viewDidAppear"
 - "viewDidLoad"
 depends-top-level:
 - !private "!="
 - !private "&&"
 - !private "=="
 - !private "Auth"
+- "Bool"
 - "BooleanLiteralType"
 - "LogInViewController"
-- "StringLiteralType"
+- !private "StringLiteralType"
 - "UIButton"
 - "UITextField"
 - "UIViewController"
 - !private "print"
 depends-member:
 - !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "currentUser"]
 - !private ["So7FIRAuthC", "signIn"]
 - !private ["SK", "init"]
 - !private ["SK", "init"]
@@ -37,6 +40,7 @@ depends-member:
 - !private ["s7CVarArgP", "addTarget"]
 - !private ["s7CVarArgP", "auth"]
 - !private ["s7CVarArgP", "btnLogIn"]
+- !private ["s7CVarArgP", "currentUser"]
 - !private ["s7CVarArgP", "dismiss"]
 - !private ["s7CVarArgP", "handleSignIn"]
 - !private ["s7CVarArgP", "init"]
@@ -47,6 +51,7 @@ depends-member:
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "txtEmail"]
 - !private ["s7CVarArgP", "txtPassword"]
+- !private ["s7CVarArgP", "viewDidAppear"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["Sl", "init"]
 - !private ["Sl", "init"]
@@ -57,6 +62,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "addTarget"]
 - !private ["s28CustomDebugStringConvertibleP", "auth"]
 - !private ["s28CustomDebugStringConvertibleP", "btnLogIn"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
 - !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "handleSignIn"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -67,6 +73,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "txtEmail"]
 - !private ["s28CustomDebugStringConvertibleP", "txtPassword"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidAppear"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
@@ -82,6 +89,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "addTarget"]
 - !private ["s23CustomStringConvertibleP", "auth"]
 - !private ["s23CustomStringConvertibleP", "btnLogIn"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
 - !private ["s23CustomStringConvertibleP", "dismiss"]
 - !private ["s23CustomStringConvertibleP", "handleSignIn"]
 - !private ["s23CustomStringConvertibleP", "init"]
@@ -92,6 +100,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "txtEmail"]
 - !private ["s23CustomStringConvertibleP", "txtPassword"]
+- !private ["s23CustomStringConvertibleP", "viewDidAppear"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["Se", "_getBuiltinLogicValue"]
 - !private ["Se", "addTarget"]
@@ -109,6 +118,7 @@ depends-member:
 - !private ["SQ", "addTarget"]
 - !private ["SQ", "auth"]
 - !private ["SQ", "btnLogIn"]
+- !private ["SQ", "currentUser"]
 - !private ["SQ", "dismiss"]
 - !private ["SQ", "handleSignIn"]
 - !private ["SQ", "init"]
@@ -120,6 +130,7 @@ depends-member:
 - !private ["SQ", "touchUpInside"]
 - !private ["SQ", "txtEmail"]
 - !private ["SQ", "txtPassword"]
+- !private ["SQ", "viewDidAppear"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["So15UIControlEventsV", "touchUpInside"]
@@ -139,6 +150,7 @@ depends-member:
 - !private ["SH", "addTarget"]
 - !private ["SH", "auth"]
 - !private ["SH", "btnLogIn"]
+- !private ["SH", "currentUser"]
 - !private ["SH", "dismiss"]
 - !private ["SH", "handleSignIn"]
 - !private ["SH", "init"]
@@ -149,8 +161,10 @@ depends-member:
 - !private ["SH", "text"]
 - !private ["SH", "txtEmail"]
 - !private ["SH", "txtPassword"]
+- !private ["SH", "viewDidAppear"]
 - !private ["SH", "viewDidLoad"]
 - !private ["22Project_Safe_And_Sound19LogInViewControllerC", "Auth"]
+- ["22Project_Safe_And_Sound19LogInViewControllerC", "Bool"]
 - ["22Project_Safe_And_Sound19LogInViewControllerC", "UIButton"]
 - ["22Project_Safe_And_Sound19LogInViewControllerC", "UITextField"]
 - ["22Project_Safe_And_Sound19LogInViewControllerC", "btnLogIn"]
@@ -161,6 +175,7 @@ depends-member:
 - !private ["22Project_Safe_And_Sound19LogInViewControllerC", "print"]
 - ["22Project_Safe_And_Sound19LogInViewControllerC", "txtEmail"]
 - ["22Project_Safe_And_Sound19LogInViewControllerC", "txtPassword"]
+- ["22Project_Safe_And_Sound19LogInViewControllerC", "viewDidAppear"]
 - ["22Project_Safe_And_Sound19LogInViewControllerC", "viewDidLoad"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
@@ -180,6 +195,7 @@ depends-member:
 - !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "txtEmail"]
 - !private ["So8NSCodingP", "txtPassword"]
+- !private ["So8NSCodingP", "viewDidAppear"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - ["So26NSExtensionRequestHandlingP", ""]
@@ -192,13 +208,16 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "txtEmail"]
 - !private ["So26NSExtensionRequestHandlingP", "txtPassword"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidAppear"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So8NSObjectC", "Auth"]
+- ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "UIButton"]
 - ["So8NSObjectC", "UITextField"]
 - !private ["So8NSObjectC", "addTarget"]
 - !private ["So8NSObjectC", "auth"]
 - ["So8NSObjectC", "btnLogIn"]
+- !private ["So8NSObjectC", "currentUser"]
 - !private ["So8NSObjectC", "dismiss"]
 - ["So8NSObjectC", "handleSignIn"]
 - ["So8NSObjectC", "init"]
@@ -209,12 +228,14 @@ depends-member:
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "txtEmail"]
 - ["So8NSObjectC", "txtPassword"]
+- ["So8NSObjectC", "viewDidAppear"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectP", "Auth"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "addTarget"]
 - !private ["So8NSObjectP", "auth"]
 - !private ["So8NSObjectP", "btnLogIn"]
+- !private ["So8NSObjectP", "currentUser"]
 - !private ["So8NSObjectP", "dismiss"]
 - !private ["So8NSObjectP", "handleSignIn"]
 - !private ["So8NSObjectP", "init"]
@@ -225,6 +246,7 @@ depends-member:
 - !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "txtEmail"]
 - !private ["So8NSObjectP", "txtPassword"]
+- !private ["So8NSObjectP", "viewDidAppear"]
 - !private ["So8NSObjectP", "viewDidLoad"]
 - !private ["s9OptionSetP", "touchUpInside"]
 - !private ["Sq", "addTarget"]
@@ -261,6 +283,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "txtEmail"]
 - !private ["So21UIAppearanceContainerP", "txtPassword"]
+- !private ["So21UIAppearanceContainerP", "viewDidAppear"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So8UIButtonC", "addTarget"]
 - !private ["So18UIContentContainerP", "Auth"]
@@ -274,6 +297,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "txtEmail"]
 - !private ["So18UIContentContainerP", "txtPassword"]
+- !private ["So18UIContentContainerP", "viewDidAppear"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So9UIControlC", "addTarget"]
@@ -295,6 +319,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "txtEmail"]
 - !private ["So18UIFocusEnvironmentP", "txtPassword"]
+- !private ["So18UIFocusEnvironmentP", "viewDidAppear"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So11UIFocusItemP", "addTarget"]
 - !private ["So11UIFocusItemP", "text"]
@@ -314,8 +339,10 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "txtEmail"]
 - !private ["So30UIPasteConfigurationSupportingP", "txtPassword"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidAppear"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "Auth"]
+- ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UITextField"]
 - !private ["So11UIResponderC", "addTarget"]
@@ -329,6 +356,7 @@ depends-member:
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "txtEmail"]
 - ["So11UIResponderC", "txtPassword"]
+- ["So11UIResponderC", "viewDidAppear"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -343,6 +371,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "txtEmail"]
 - !private ["So30UIResponderStandardEditActionsP", "txtPassword"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidAppear"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
 - !private ["So16UIStateRestoringP", "Auth"]
@@ -356,6 +385,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "txtEmail"]
 - !private ["So16UIStateRestoringP", "txtPassword"]
+- !private ["So16UIStateRestoringP", "viewDidAppear"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So15UITextDraggableP", "text"]
 - !private ["So15UITextDroppableP", "text"]
@@ -376,6 +406,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "txtEmail"]
 - !private ["So18UITraitEnvironmentP", "txtPassword"]
+- !private ["So18UITraitEnvironmentP", "viewDidAppear"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So23UIUserActivityRestoringP", "Auth"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -390,10 +421,12 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "text"]
 - !private ["So23UIUserActivityRestoringP", "txtEmail"]
 - !private ["So23UIUserActivityRestoringP", "txtPassword"]
+- !private ["So23UIUserActivityRestoringP", "viewDidAppear"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - !private ["So6UIViewC", "addTarget"]
 - !private ["So6UIViewC", "text"]
 - !private ["So16UIViewControllerC", "Auth"]
+- ["So16UIViewControllerC", "Bool"]
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", ""]
@@ -406,6 +439,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "txtEmail"]
 - ["So16UIViewControllerC", "txtPassword"]
+- ["So16UIViewControllerC", "viewDidAppear"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
@@ -425,6 +459,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "btnLogIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "handleSignIn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -435,6 +470,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "txtEmail"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "txtPassword"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidAppear"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "addTarget"]
@@ -539,51 +575,51 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/Firebase/CoreOnly/Sources/Firebase.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
@@ -596,4 +632,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ecc6afe336d6c4c4f604cb0a5158a9e3"
+interface-hash: "1319e9bcb599fb615ac2e209795165ad"

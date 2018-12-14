@@ -7,203 +7,298 @@ provides-member:
 - ["22Project_Safe_And_Sound0bcD14ViewControllerC", ""]
 provides-dynamic-lookup:
 - "btnContacts"
+- "btnSilent"
+- "handleSignOut"
 - "viewDidLoad"
 depends-top-level:
+- !private "*"
+- "AssignmentPrecedence"
+- !private "Auth"
 - !private "BooleanLiteralType"
+- !private "FloatLiteralType"
 - "SafeAndSoundViewController"
-- !private "StringLiteralType"
 - "UIButton"
 - "UIViewController"
 depends-member:
-- !private ["SK", "init"]
-- !private ["SK", "init"]
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "signOut"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "Auth"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "btnSilent"]
+- !private ["s7CVarArgP", "cornerRadius"]
 - !private ["s7CVarArgP", "dismiss"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "signOut"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- !private ["Sl", "init"]
-- !private ["Sl", "init"]
-- !private ["SL", "init"]
-- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "btnSilent"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
 - !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s17CustomReflectableP", "init"]
-- !private ["s17CustomReflectableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "bounds"]
+- !private ["s17CustomReflectableP", "layer"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "btnSilent"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
 - !private ["s23CustomStringConvertibleP", "dismiss"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
-- !private ["Se", "init"]
-- !private ["Se", "init"]
-- !private ["SE", "init"]
-- !private ["SE", "init"]
+- !private ["Se", "bounds"]
+- !private ["Se", "layer"]
+- !private ["Se", "size"]
+- !private ["Se", "width"]
+- !private ["SE", "bounds"]
+- !private ["SE", "layer"]
+- !private ["SE", "size"]
+- !private ["SE", "width"]
+- !private ["SQ", "Auth"]
 - ["SQ", ""]
+- !private ["SQ", "auth"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "btnSilent"]
+- !private ["SQ", "cornerRadius"]
 - !private ["SQ", "dismiss"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
-- !private ["SQ", "performSegue"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "signOut"]
+- !private ["SQ", "size"]
 - !private ["SQ", "viewDidLoad"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SQ", "width"]
+- !private ["s23ExpressibleByNilLiteralP", "bounds"]
+- !private ["s23ExpressibleByNilLiteralP", "layer"]
+- !private ["SH", "Auth"]
 - ["SH", ""]
+- !private ["SH", "auth"]
+- !private ["SH", "bounds"]
+- !private ["SH", "btnSilent"]
+- !private ["SH", "cornerRadius"]
 - !private ["SH", "dismiss"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
-- !private ["SH", "performSegue"]
+- !private ["SH", "layer"]
+- !private ["SH", "signOut"]
 - !private ["SH", "viewDidLoad"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "init"]
-- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Auth"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "btnSilent"]
+- !private ["So8NSCodingP", "cornerRadius"]
 - !private ["So8NSCodingP", "dismiss"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
-- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "layer"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "btnSilent"]
 - !private ["So26NSExtensionRequestHandlingP", "dismiss"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
-- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Auth"]
 - ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "bounds"]
 - ["So8NSObjectC", "btnContacts"]
+- ["So8NSObjectC", "btnSilent"]
+- !private ["So8NSObjectC", "cornerRadius"]
 - !private ["So8NSObjectC", "dismiss"]
 - ["So8NSObjectC", "handleSignOut"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "signOut"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Auth"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "btnSilent"]
+- !private ["So8NSObjectP", "cornerRadius"]
 - !private ["So8NSObjectP", "dismiss"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "signOut"]
 - !private ["So8NSObjectP", "viewDidLoad"]
-- !private ["Sm", "init"]
-- !private ["Sm", "init"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["Sq", "bounds"]
+- !private ["Sq", "layer"]
+- !private ["22Project_Safe_And_Sound0bcD14ViewControllerC", "Auth"]
 - ["22Project_Safe_And_Sound0bcD14ViewControllerC", "UIButton"]
 - ["22Project_Safe_And_Sound0bcD14ViewControllerC", "btnContacts"]
+- ["22Project_Safe_And_Sound0bcD14ViewControllerC", "btnSilent"]
 - !private ["22Project_Safe_And_Sound0bcD14ViewControllerC", "dismiss"]
 - ["22Project_Safe_And_Sound0bcD14ViewControllerC", "handleSignOut"]
 - ["22Project_Safe_And_Sound0bcD14ViewControllerC", "init"]
-- !private ["22Project_Safe_And_Sound0bcD14ViewControllerC", "performSegue"]
 - ["22Project_Safe_And_Sound0bcD14ViewControllerC", "viewDidLoad"]
-- !private ["ST", "init"]
-- !private ["ST", "init"]
-- !private ["SS", "init"]
-- !private ["SS", "init"]
-- !private ["Sy", "init"]
-- !private ["Sy", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "bounds"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "btnSilent"]
 - !private ["So21UIAppearanceContainerP", "dismiss"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
-- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "layer"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "bounds"]
+- !private ["So8UIButtonC", "layer"]
+- !private ["So18UIContentContainerP", "Auth"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "btnSilent"]
 - !private ["So18UIContentContainerP", "dismiss"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "init"]
-- !private ["So18UIContentContainerP", "performSegue"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "bounds"]
+- !private ["So9UIControlC", "layer"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "btnSilent"]
 - !private ["So18UIFocusEnvironmentP", "dismiss"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "init"]
-- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "btnSilent"]
 - !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "bounds"]
 - ["So11UIResponderC", "btnContacts"]
+- ["So11UIResponderC", "btnSilent"]
 - !private ["So11UIResponderC", "dismiss"]
 - ["So11UIResponderC", "handleSignOut"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "init"]
-- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "layer"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "btnSilent"]
 - !private ["So30UIResponderStandardEditActionsP", "dismiss"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "bounds"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
+- !private ["So16UIStateRestoringP", "Auth"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "btnSilent"]
 - !private ["So16UIStateRestoringP", "dismiss"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "init"]
-- !private ["So16UIStateRestoringP", "performSegue"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Auth"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "btnSilent"]
 - !private ["So18UITraitEnvironmentP", "dismiss"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "init"]
-- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "layer"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Auth"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "btnSilent"]
 - !private ["So23UIUserActivityRestoringP", "dismiss"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "init"]
-- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "layer"]
+- !private ["So16UIViewControllerC", "Auth"]
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "btnContacts"]
+- ["So16UIViewControllerC", "btnSilent"]
 - !private ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "handleSignOut"]
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "init"]
-- !private ["So16UIViewControllerC", "performSegue"]
 - ["So16UIViewControllerC", "viewDidLoad"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "btnSilent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "bounds"]
+- !private ["s21_ObjectiveCBridgeableP", "layer"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
 depends-nominal:
-- !private "SK"
+- !private "So7FIRAuthC"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
 - "s7CVarArgP"
-- !private "Sl"
-- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
@@ -211,41 +306,39 @@ depends-nominal:
 - !private "Se"
 - !private "SE"
 - "SQ"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - "SH"
-- !private "s25LosslessStringConvertibleP"
-- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
-- !private "Sm"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
 - "22Project_Safe_And_Sound0bcD14ViewControllerC"
-- !private "ST"
-- !private "SS"
-- !private "Sy"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
 - "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -262,51 +355,51 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/Firebase/CoreOnly/Sources/Firebase.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/lightway/IOS/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/lightway/Development/iOS-Development/Project-Custom-Cell/Working/Project-Safe-And-Sound/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
@@ -319,4 +412,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "1bba09fb8b18db47d0911de8bf3c7ca8"
+interface-hash: "332c74a022d1538ee1c2b5f2b1849301"

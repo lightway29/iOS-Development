@@ -7,23 +7,23 @@
 //
 
 import UIKit
+import Firebase
 
 class SafeAndSoundViewController: UIViewController {
 
-    
     @IBOutlet var btnContacts: UIButton!
-    
+    @IBOutlet var btnSilent: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        btnSilent.layer.cornerRadius = 0.5 * btnSilent.bounds.size.width
 
-        // Do any additional setup after loading the view.
     }
     
-     func handleSignOut(){
+    @IBAction func handleSignOut(_ sender: Any) {
+        try! Auth.auth().signOut()
         self.dismiss(animated: false, completion: nil)
-        self.performSegue(withIdentifier: "goto_login_from_safe_and_sound", sender: nil)
-        
     }
+
 
 
 }

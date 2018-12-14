@@ -207,6 +207,7 @@ SWIFT_CLASS("_TtC22Project_Safe_And_Sound19LogInViewController")
 @property (nonatomic, strong) IBOutlet UITextField * _Null_unspecified txtEmail;
 @property (nonatomic, strong) IBOutlet UITextField * _Null_unspecified txtPassword;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)handleSignIn;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -216,7 +217,9 @@ SWIFT_CLASS("_TtC22Project_Safe_And_Sound19LogInViewController")
 SWIFT_CLASS("_TtC22Project_Safe_And_Sound26SafeAndSoundViewController")
 @interface SafeAndSoundViewController : UIViewController
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified btnContacts;
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified btnSilent;
 - (void)viewDidLoad;
+- (IBAction)handleSignOut:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

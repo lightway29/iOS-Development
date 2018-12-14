@@ -17,9 +17,19 @@ class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         btnLogIn.addTarget(self, action: #selector(handleSignIn), for: .touchUpInside)
        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if Auth.auth().currentUser != nil{
+            self.performSegue(withIdentifier: "goto_safe_and_sound_from_login", sender: nil)
+
+        }
+        
     }
     
     @objc func handleSignIn() {
